@@ -27,6 +27,9 @@ A clustered bar chart, showing the most common types of car crashes and correspo
 **Fatal Crashes by Zipcode** -
 A bubble map showing the number of fatal crashes by Zipcode and Neighborhood. To get addresses from latitude and longitude 
 coordinates I reverse-geocoded the coordinates using Google Maps API and power query and extracted the zip codes into a separate
-column. For neighborhoods, I sorted them by zipcode using DAX. 
+column. For neighborhoods, I assigned each zipcode to a neighborhood using DAX.
 
-****
+**Top 10 Zip Codes**
+A table that shows the 10 zip codes in Charlotte with the most fatal crashes in descending order.
+
+**
