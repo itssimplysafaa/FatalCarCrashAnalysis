@@ -10,6 +10,10 @@ https://data.charlottenc.gov/datasets/charlotte::fatal-or-serious-injury-crashes
 
 For locational data, I used Google Maps API for reverse geocoding.
 
+### Data Transformation 
+I removed columns that wouldn't add to the analysis, such as the crash type number and primary description numbers. Many of the data entries had primary descriptions such as "no contributing circumstance", or "unable to determine". Therefore, I grouped all of those descriptions under the category, "Unknown". "The military time column's format was a whole number, so I converted the column into standard time using DAX and made it into a separate column. I then made a separate column for hour intervals (i.e., *7:00 AM*), to group the fatal crashes more efficiently.
+
+
 ### Visuals In Dashboard
 **Fatal Crashes by Year and Month** -
 A drill-down clustered column chart showing the total number of fatal crashes by month and year. There is also a month and year slicer that
@@ -29,7 +33,7 @@ A bubble map showing the number of fatal crashes by Zipcode and Neighborhood. To
 coordinates I reverse-geocoded the coordinates using Google Maps API and power query and extracted the zip codes into a separate
 column. For neighborhoods, I assigned each zipcode to a neighborhood using DAX.
 
-**Top 10 Zip Codes**
+**Top 10 Zip Codes** -
 A table that shows the 10 zip codes in Charlotte with the most fatal crashes in descending order.
 
 **
