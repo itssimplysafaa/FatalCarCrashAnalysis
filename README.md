@@ -13,7 +13,8 @@ What are the most common causes of fatal car crashes?
 
 What areas of Charlotte are the most fatal car crashes happening?
 
-How have measures such as top fatal crash causes, and top crash types changed in those 5 years?
+How have KPI's such as top fatal crash causes, and top crash types changed in those 5 years?
+
 
 ### Data Sources and Tools
 The dataset is public through the City of Charlotte's website.
@@ -47,4 +48,5 @@ column. For neighborhoods, I assigned each zipcode to a neighborhood using DAX.
 **Top 10 Zip Codes** -
 A table that shows the 10 zip codes in Charlotte with the most fatal crashes in descending order.
 
-**
+**Top 5 Neighborhoods** -
+A clustered column chart showing the 5 neighborhoods in Charlotte with the most fatal crashes in the last 5 years.
