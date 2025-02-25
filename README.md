@@ -50,3 +50,14 @@ A table that shows the 10 zip codes in Charlotte with the most fatal crashes in 
 
 **Top 5 Neighborhoods** -
 A clustered column chart showing the 5 neighborhoods in Charlotte with the most fatal crashes in the last 5 years.
+
+### Conclusions Drawn
+- 2021 had the most fatal crashes in the 5 years with 185 fatal crashes. 
+- Weekends are when the most car crashes happen with Saturday having the highest number overall at 144. Sunday comes in second with 128 crashes overall in the last 5 years.
+- Fatal car crashes tend to happen at night with the most common time for them to happen being between 8 and 10 PM.
+- Pedestrian crashes make up over a quarter of fatal car crashes over the 5 years.
+- After 2019, speeding became the number 1 cause of fatal car crashes.
+- The Zipcode with the highest number of fatal crashes overall is 28208 which is where the Wesley Heights Neighborhood and Charlotte Douglass International Airport are located
+- University City, including the University of North Carolina at Charlotte and surrounding areas, had the highest number of fatal crashes in the last 5 years at 116 fatal crashes.
+ 
+
