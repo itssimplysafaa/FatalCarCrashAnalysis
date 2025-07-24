@@ -13,8 +13,6 @@ What are the most common causes of fatal car crashes?
 
 What areas of Charlotte are the most fatal car crashes happening?
 
-How have KPI's such as top fatal crash causes, and top crash types changed in those 5 years?
-
 
 ### Data Sources and Tools
 The dataset is public through the City of Charlotte's website.
